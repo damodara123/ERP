@@ -16,8 +16,6 @@ public class Coursepageexe extends Excel_Reading_Data{
 
 	WebDriver driver;
 	
-	
-	
 	@BeforeClass
 	public void Login() throws Exception 
 	{

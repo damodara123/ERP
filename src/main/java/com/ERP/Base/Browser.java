@@ -18,7 +18,7 @@ public class Browser {
 			public WebDriver lunchUrl() throws Exception
 			{
 				Properties obj = new Properties();
-				FileInputStream fis = new FileInputStream("C:\\Users\\damod\\eclipse-workspace\\com.ERP\\src\\main\\resources\\config.properties");
+				FileInputStream fis = new FileInputStream(".//src//main//resources//config.properties");
 				obj.load(fis);
 				String BrowserName = obj.getProperty("browser"); //step for proprties folder data to receive
 				String URL = obj.getProperty("url");
